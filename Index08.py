@@ -5,6 +5,14 @@ def main(s):
         s(str): parameter
     Returns:
         int: answer
+
     """
-    return
+    
+
+    if s.find('*',0,10) == -1:
+        return False
+    
+    return s.find('*',0,10)
+    
+print(main('24*4'))
         
