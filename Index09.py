@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if int(s) == int(s):
+        return s
+    elif str(s) != int(s):
+        return -1
+print(main('h'))
